@@ -1,0 +1,9 @@
+.titulo-principal{
+    text-align: center;
+    color: #FFF;
+    font-size: 60px;
+    padding: 30px;
+    margin: 0;
+    background-color: #10a538;
+    border-bottom: 6px solid #000;
+}
