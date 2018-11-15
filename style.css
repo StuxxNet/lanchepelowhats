@@ -41,16 +41,13 @@
     float: left;
 }
 
-.lanche{
+.lanche {
     width: 70%;
-    float: right;
 }
 
 main p {
     color: black;
-    margin-top: 10px;
     margin-right: 20px;
-    margin-bottom: 10px;
 }
 
 main h2 {
@@ -60,8 +57,4 @@ main h2 {
     margin-bottom: 20px;
     padding: 10px;
     border-bottom: 2px #638166b6 solid;
-}
-
-main input{
-    margin-top: 8px;
 }
