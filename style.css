@@ -7,3 +7,50 @@
     background-color: #10a538;
     border-bottom: 6px solid #000;
 }
+
+.conteudo-principal{
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.footer-pagina{
+    background-color: #000;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.footer-pagina ul{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-pagina li{
+    display: inline-block;
+}
+
+.footer-pagina p{
+    color: white;
+    margin-right: 20px;
+    float: left;
+}
+
+.opcao{
+    float: left;
+}
+
+main p {
+    color: black;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+main h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 2px #638166b6 solid;
+}
