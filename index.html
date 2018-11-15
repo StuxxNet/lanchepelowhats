@@ -15,7 +15,12 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>
 -->
-<html lang="pt-br">
+
+<!-- 
+    FORKED BY: Ramon Borges <ramonboorges@gmail.com> at 15.10.2018
+-->
+
+<html>
     <head>
         <title>Lanche pelo WhatsApp</title>
         <meta charset="UTF-8">
@@ -24,11 +29,13 @@
         <meta name="keywords" content="lanche, whatsapp, whats, comida, hamburger" />
         <meta name="robots" content="index, follow" />
         <link rel="shortcut icon" href="http://www.icons101.com/icon_ico/id_13859/burger.ico" type="image/x-icon"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Spicy+Rice">
         <link rel="manifest" href="manifest.json">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/reset.css">
     </head>
     <body>
+        <img src="images/whatsapp.png" class="imagem-principal" alt="Ícone do WhatsApp">
         <h1 class="titulo-principal">Whats??Lanche</h1>
         <main>
             <div class="conteudo-principal">
@@ -45,7 +52,7 @@
                 <select class="lanche"></select>
 
                 <p class="opcao">Retirar os itens:</p> 
-                <select multiple="multiple" class="itens"></select>
+                <select multiple="multiple" class="itens" size="5"></select>
                 
                 <h2>Hora do Fechamento!</h2>
                 <p class="opcao">Pergunta quanto tempo vai levar pra entregar</p>
@@ -58,9 +65,9 @@
         </main>
         <footer class="footer-pagina">
             <ul>
-                <li><a href="https://facebook.com/0day1337">Facebook</a></li>
-                <li><a href="https://github.com/terremoth">GitHub</a></li>
-                <li><a href="mailto:dutra.astro@gmail.com">Email</a></li>
+                <li><a href="https://facebook.com/ramonboorges" class="facebook linksocial">Facebook</a></li>
+                <li><a href="https://github.com/stuxxnet" class="github linksocial">GitHub</a></li>
+                <li><a href="mailto:ramonboorgeso@gmail.com" class="email linksocial">Email</a></li>
             </ul>
             <p>Total de views:</p>
             <a href="http://www.reliablecounter.com" target="_blank">
@@ -68,6 +75,6 @@
             </a>
         </footer>
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-        <script type="text/javascript" src="processa-pedido.js"></script>
+        <script type="text/javascript" src="js/processa-pedido.js"></script>
     </body>
 </html>
